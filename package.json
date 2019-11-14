@@ -1,0 +1,22 @@
+{
+  "name": "webcrawling",
+  "version": "1.0.0",
+  "description": "webcrawling test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "dongryun",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4",
+    "puppeteer": "^2.0.0",
+    "ws": "^7.2.0"
+  }
+}
